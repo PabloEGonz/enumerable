@@ -4,17 +4,22 @@
   <h3><b>My Enumerable</b></h3>
 </div>
 
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
   - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -36,10 +41,17 @@ classes, methods, yield & modules.
   </ul>
 </details>
 
+### Key Features <a name="key-features"></a>
+
+- **Accessing Ruby module using class inheritance**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
 
+You can see the live demo here: N/A
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -49,50 +61,60 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-
 ```sh
  gem install ruby
 ```
-
 ### Setup
-
 Clone this repository to your desired folder:
-
 ```sh
   cd folder
   git clone git@github.com:lincoln1883/morse-decoded.git
 ```
 ### Install
-
 Install this project with:
-
 ```sh
   cd my-project
   bundle install
 ```
+### Usage
 
+To run the project run this command:
+
+```sh
+  irb
+```
+
+your default browser should be opened in this moment.
+
+### Run tests
+
+You can run tests with the following command:
+
+```sh
+  rubocop
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 👥 Authors <a name="authors"></a>
 
-
 👤 **Lincoln Gibson**
-
 - GitHub: [lincoln1883](https://github.com/lincoln1883)
 - Twitter: [lincolngibson7](https://twitter.com/lincolngibson7)
 - LinkedIn : [lincoln-gibson](https://linkedin.com/in/lincoln-gibson)
 
-
 👤 **Pablo Gonzalez**
-
 - GitHub: [@PabloEGonz](https://github.com/PabloEGonz)
 - Twitter: [@PabloEzGon](https://twitter.com/PabloEzGon)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/pablo-ezequiel-gonz%C3%A1lez-ramos-b9b854265)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- **Nothing planned**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -102,13 +124,11 @@ Feel free to check the [issues page](https://github.com/lincoln1883/morse-decode
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## ⭐️ Show your support <a name="support"></a>
 
 - Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
@@ -116,10 +136,7 @@ Feel free to check the [issues page](https://github.com/lincoln1883/morse-decode
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ## 📝 License <a name="license"></a>
-
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
