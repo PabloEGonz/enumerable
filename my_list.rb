@@ -1,19 +1,19 @@
 require_relative 'my_enumerable'
 
 class MyList
-include MyEnumerable
+  include MyEnumerable
 
-    def initialize(*args)
-        @list = args
-    end
+  def initialize(*args)
+    @list = args
+  end
 
-    def each(&block) 
-        @list.each(&block)
-    end
+  def each(&block)
+    @list.each(&block)
+  end
 end
 
 
-#Create our list
+# Create our list
 list = MyList.new(1, 2, 3, 4)
 
 # Test #all?
